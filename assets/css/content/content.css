@@ -1,0 +1,235 @@
+/* Login com facebook */
+
+body{
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size:x-small;
+}
+
+.content{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content__facebooklogin--button{
+    align-items: center;
+    background-color: #0095f6;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-size: 13px;
+    font-weight: 600;
+    height: 2.1rem;
+    justify-content: center;
+    margin-top: 3rem;
+    padding: 0 1rem;
+}
+
+.content__facebooklogin--button_icon{
+    height: 1.2rem;
+    margin-right: .5rem;
+    width: 1.2rem;
+}
+
+.content__separate{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    width: 15rem;
+}
+
+.content__separate--hr{
+    border-color: rgba(219, 219, 219, 0.3);
+    width: 38%;
+}
+
+.content__separate--or{
+    color: #858585;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+/* Formulário */
+
+.form{
+    margin-top: 1rem;
+}
+
+.form__area{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__area--box{
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    display: flex;
+    width: 14rem;
+}
+
+.form__area--box-1{
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    display: flex;
+    width: 14rem;
+}
+
+.form__area--box-2{
+    background-color: #fafafa;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    width: 14rem;
+}
+
+div.form__area--box:nth-child(2){
+    margin-top: .5rem;
+}
+
+div.form__area--box-1:nth-child(2){
+    margin-top: .5rem;
+}
+
+div.form__area--box-2:nth-child(2){
+    margin-top: .5rem;
+}
+
+.form__area--box_legend{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form__area--box_legend-title{
+    color: #8e8e8e;
+    font-size: 11px;
+    padding: .2rem 0 0 0.5rem;
+}
+
+.form__area--box_legend-input-1{
+    background-color: #fafafa;
+    border: none;
+    padding: .2rem 0.5rem;
+    width: 100%;
+}
+
+.form__area--box_legend-input-2{
+    background-color: #fafafa;
+    border: none;
+    padding: .2rem 0.5rem;
+    width: 100%;
+}
+
+.form__area--box_legend-input-3{
+    background-color: #fafafa;
+    border: none;
+    padding: .7rem 0.5rem;
+    width: 100%;
+}
+
+.form__area--box_legend-input-3::placeholder{
+    color: #8e8e8e;
+    font-size: 11.7px;
+}
+
+.form__area--box_legend-input-4{
+    background-color: #fafafa;
+    border: none;
+    padding: .7rem 0.5rem;
+    width: 100%;
+}
+
+.form__area--box_legend-input-4::placeholder{
+    color: #8e8e8e;
+    font-size: 11.7px;
+}
+
+.division{
+    width: calc(100% - 2rem);
+}
+
+.form__area--box_legend-input-1:focus,.form__area--box_legend-input-2:focus, .form__area--box_legend-input-3:focus, .form__area--box_legend-input-4:focus{
+    outline: none;
+}
+
+.form__area--box_legend-button{
+    background-color: #fafafa;
+    color: black;
+    cursor: pointer;
+    font-style: none;
+    line-height: 2rem;
+    padding: 0 .5rem;
+    text-decoration: none;
+}
+
+.form__forgotPassword{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    width: 90%;
+}
+
+.form__forgotPassword--link{
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.form__login{
+    width: 90%;
+}
+
+.form__login--submit{
+    background-color: #5dc1fa;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    padding: .5rem 1rem;    
+    width: 100%;
+}
+
+/* Botão de registro */ 
+
+.register{
+    margin-top: 2.5rem;
+}
+
+.register__text{
+    color: #8e8e8e;
+}
+
+.register__link{
+    color: #0095f6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Sub logo da Meta */
+
+.sublogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 7.3rem;
+    width: 100%;
+}
+
+.sublogo__img{
+    height: 1.64rem;
+    width: 3.25rem;
+}
+
+/* Responsividade */ 
+
+@media screen and (min-width: 1024px){
+    .form__area--box_legend-input-3::placeholder{
+        color: #8e8e8e;
+        font-size: 11px;
+    }
+}
